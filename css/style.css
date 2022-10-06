@@ -1,0 +1,207 @@
+*
+
+/* resetando o navegador*/
+	{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.social-media img {
+	width: 17px;
+	padding-top: 10px;
+	margin-bottom: 15px;
+}
+main {
+	display: -ms-grid;
+	display: grid;
+	
+	grid-template-areas: "header header" "nav nav" "content aside" "footer footer" "privacidade privacidade";
+	
+}
+
+.caixa
+
+/*center*/
+	{
+	display: flex;
+	flex-wrap: wrap;
+	position: relative;
+	max-width: 1280px;
+	margin: 0 auto;
+	padding: 0 2%;
+}
+
+header {
+	padding: 20px 0;
+}
+
+.logo-icone {
+	width: 10%;
+}
+
+.menu {
+	padding-top: 37px;
+	text-align: right;
+	margin-left: 45%;
+}
+
+.menu a {
+	padding: 15px;
+	color: black;
+	text-decoration: none;
+	margin-right: 15px;
+	font-weight: normal;
+}
+
+/*main*/
+
+/*pagina about*/
+.principal {
+	padding: 3em 0;
+	background: #FEFEFE;
+	width: 100%;
+	margin: 0 auto;
+}
+
+.tituloSobre {
+	text-align: center;
+	margin: auto;
+	clear: left;
+	padding: 10px;
+	margin-left: 20%;
+}
+
+.textoSobre
+{
+	text-align: center;
+	padding: 15px;
+}
+
+.imagemSobre {
+	width: 18%;
+	float: left;
+	margin-left: 10%;
+	
+
+}
+/*contato*/
+.label
+{
+	display: block;
+	width: 50%;
+}
+/*footer*/
+footer {
+	position: fixed;
+	background: #111;
+	bottom: 0px;
+	text-align: center;
+	width: 100%;
+}
+
+.main-content {
+	display: flex;
+}
+
+.main-content .box {
+	flex-basis: 50%;
+	padding: 10px 20px;
+}
+
+.box h2 {
+	font-size: 18px;
+	font-weight: 600;
+	text-transform: uppercase;
+}
+
+.box .content {
+	margin: 20px 0 0 0;
+	position: relative;
+}
+
+.box .content:after {
+	position: absolute;
+	content: '';
+	width: 15%;
+	height: 2px;
+	background: #f12020;
+	top: -10px;
+}
+
+.box .content:before {
+	position: absolute;
+	content: '';
+	height: 2px;
+	width: 100%;
+	background: #1a1a1a;
+	top: -10px;
+}
+
+.left .content .social {
+	margin: 20px 0 0 0;
+}
+
+.left .content .social a {
+	padding: 0 2px;
+}
+
+.left .content .social a span {
+	width: 40px;
+	height: 40px;
+	background: #1a1a1a;
+	text-align: center;
+	line-height: 40px;
+	border-radius: 5px;
+	font-size: 18px;
+	transition: 0.3s;
+}
+
+.left .content p {
+	text-align: justify;
+}
+
+.center .content .fas {
+	font-size: 23px;
+	background: #1a1a1a;
+	width: 45px;
+	height: 45px;
+	line-height: 45px;
+	text-align: center;
+	border-radius: 50%;
+	transition: 0.3s;
+	cursor: pointer;
+}
+
+.center .content .phone {
+	margin: 10px 0;
+}
+
+.icone {
+	width: 18px;
+}
+
+.center .content .text {
+	font-size: 17px;
+	font-weight: 500;
+	padding-left: 10px;
+}
+
+.email .phone {
+	margin-right: 10px;
+}
+
+
+.center .content .phone {
+	margin: 10px 0;
+	margin-left: 35px;
+}
+
+.email {
+	margin-left: 90px;
+}
+
+.center .content .msg {
+	margin-top: 10px;
+}
